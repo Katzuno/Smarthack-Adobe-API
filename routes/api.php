@@ -16,3 +16,8 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::post('/generateToken', 'SiteIdentificationController@generateToken');
+Route::post('/updateSite', 'SiteIdentificationController@updateSite');
+
+Route::get('/getSiteInfo/{token}', 'SiteIdentificationController@getSiteInfo');
