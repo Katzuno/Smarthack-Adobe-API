@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="postgres@smarthack-adobe" uuid="014107f8-5684-49e2-96ee-ec1a09f20969">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://postgres-do-user-6710144-0.db.ondigitalocean.com:25060/smarthack_adobe</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="postgres@smarthack-adobe [2]" uuid="f1472b28-4e7d-4932-9c3d-6bcccf1215ac">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://postgres-do-user-6710144-0.db.ondigitalocean.com:25060/smarthack_adobe</jdbc-url>
+    </data-source>
+  </component>
+</project>
