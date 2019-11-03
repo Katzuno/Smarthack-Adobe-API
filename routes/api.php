@@ -20,4 +20,9 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::post('/generateToken', 'SiteIdentificationController@generateToken');
 Route::post('/updateSite', 'SiteIdentificationController@updateSite');
 
-Route::get('/getSiteInfo/{token}', 'SiteIdentificationController@getSiteInfo');
+Route::post('/getSiteInfo/{token}', 'SiteIdentificationController@getSiteInfo');
+Route::post('/getAllVersions/{token}', 'SiteIdentificationController@getAllVersions');
+Route::get('/getVersionById/{versionId}', 'SiteIdentificationController@getVersionById');
+
+
+Route::post('/extractImageData', 'ImageProcessingController@extractImageLabel');
